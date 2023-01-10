@@ -10,7 +10,7 @@ você tem a outra para
 conectar tranquilamente.
 \nAtiva e desativa o modo avião do seu aparelho algumas vezes se não conectar de primeira isso servirá para mudar o IP local do seu chip.
 ",
-  "UrlUpdate": "#",
+  "UrlUpdate": "https://raw.githubusercontent.com/SSHFOXBR/socks-lord-king/main/README.md",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=341041",
   "EmailFeedback": "#",
   "UrlContato": "https://sshfox.com/app",
