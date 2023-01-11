@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
 🔰 V: 1.0.1 | Horas: 07:20 | 02/01/2023 🔰\n
 ••••\n
@@ -16,35 +16,11 @@ conectar tranquilamente.
   "UrlContato": "https://sshfox.com/app",
   "UrlTermos": "https://sshfox.com/termos/",
   "CheckUser": "true",
-  "UdpPort": "7100;7200;7300;7400;7500;7600;7700;7800;7900",
-  "Udp": [
-    {
-      "Porta": "7100"
-    },
-    {
-      "Porta": "7200"
-    },   
+  "UdpPort": "7300",
+  "Udp": [   
     {
       "Porta": "7300"
     },  
-    {
-      "Porta": "7400"
-    },   
-    {
-      "Porta": "7500"
-    },   
-    {
-      "Porta": "7600"
-    },   
-    {
-      "Porta": "7700"
-    },   
-    {
-      "Porta": "7800"
-    },   
-    {
-      "Porta": "7900"
-    },    
   ],
   "Servers": [
     {
