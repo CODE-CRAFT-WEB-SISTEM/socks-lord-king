@@ -1,9 +1,9 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.1 | Horas: 07:20 | 02/01/2023 🔰\n
+🔰 V: 1.0.3 | Horas: 10:58 | 10/01/2023 🔰\n
 ••••\n
-⚠️ MURAL DE AVISOS: NOVA PAYLOAD VIVO EASY E NORMAL, e TIM DIRECT\n
+⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
 🚀uma dica; recomendamos ter 2 chips de operadoras diferentes, caso uma rede caia 
 você tem a outra para
