@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.3 | Horas: 10:58 | 10/01/2023 🔰\n
+🔰 V: 1.0.4 | Horas: 19:11 | 18/02/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -196,6 +196,16 @@ conectar tranquilamente.
             "Name": "TIM MODO AVIÃO 02 ✈️",
             "FLAG": "tim",
             "Payload": "PATCH HTTP/1.0 [crlf]Host: map.qq.com[crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "134.65.22.83",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+{
+            "Name": "TIM MODO AVIÃO 03 ✈️",
+            "FLAG": "tim",
+            "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP\/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "134.65.22.83",
