@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.4 | Horas: 19:11 | 18/02/2023 🔰\n
+🔰 V: 1.0.5 | Horas: 16:51:17 | 26/02/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -209,6 +209,16 @@ conectar tranquilamente.
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "134.65.22.83",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+{
+            "Name": "TIM MODO AVIÃO 04 ✈️",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host:landing.stoodi.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.53.111",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
