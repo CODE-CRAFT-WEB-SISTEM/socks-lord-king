@@ -186,11 +186,11 @@ conectar tranquilamente.
     "Name": "TIM MODO AVIÃO 01 ✈️",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
-    "SNI": "",
-    "TlsIP": "",
+    "SNI": "t.topspeed.ml",
+    "TlsIP": "t.topspeed.ml",
     "ProxyIP": "t.topspeed.ml",
     "ProxyPort": "80",
-    "Info": "Direct"
+    "Info": "Proxy"
     },
 {
             "Name": "TIM MODO AVIÃO 02 ✈️",
