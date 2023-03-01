@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.14",
+  "Version": "1.0.15",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.14 | Horas: 15:00:27 | 01/03/2023 🔰\n
+🔰 V: 1.0.15 | Horas: 15:00:27 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -194,36 +194,55 @@ conectar tranquilamente.
       "Info": "Tlsws"
     },
 {
-    "Name": "TIM MODO AVIÃO 01 ✈️",
-    "FLAG": "tim",
-    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
-    "SNI": "",
-    "TlsIP": "",
-    "ProxyIP": "t.topspeed.ml",
-    "ProxyPort": "80",
-    "Info": "Proxy"
+    "Name": "TIM 01 Servidor: A",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: appdev.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.16.53.111",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+  },
+  {
+      "Name": "TIM 02 Servidor: A",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: landing.stoodi.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.19.249.25",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+   },
+{
+    "Name": "TIM 03 Servidor: A",
+      "FLAG": "tim",
+      "Payload": "GET wss://www.c6bank.app/ HTTP/1.1[crlf]Host: www.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.19.239.25",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+  },
+  {
+    "Name": "TIM 04 Servidor: A",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: image.mail.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.19.241.25",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+  },
+{
+      "Name": "TIM 05 Servidor: A",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: www.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.18.28.182",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
     },
-{
-            "Name": "TIM MODO AVIÃO 02 ✈️",
-            "FLAG": "tim",
-            "Payload": "PATCH HTTP/1.0 [crlf]Host: map.qq.com[crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "134.65.22.83",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-{
-            "Name": "TIM MODO AVIÃO 03 ✈️",
-            "FLAG": "tim",
-            "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP\/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "134.65.22.83",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-
 {
     "Name": "TIM 01 Servidor: B",
     "FLAG": "tim",
@@ -264,7 +283,8 @@ conectar tranquilamente.
     "ProxyPort": "80",
     "Info": "Direct"
     },
-        {
+
+    {
             "Name": "OI 01 Servidor: A",
             "FLAG": "OI",
             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
