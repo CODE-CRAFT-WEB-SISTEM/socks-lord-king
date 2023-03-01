@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.13",
+  "Version": "1.0.14",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.13 | Horas: 15:00:27 | 01/03/2023 🔰\n
+🔰 V: 1.0.14 | Horas: 15:00:27 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -225,7 +225,7 @@ conectar tranquilamente.
         },
 
 {
-    "Name": "TIM Servidor B 01 🔵",
+    "Name": "TIM 01 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
@@ -235,7 +235,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
 {
-    "Name": "TIM Servidor B 02 🔵",
+    "Name": "TIM 02 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
@@ -245,7 +245,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
 {
-    "Name": "TIM Servidor B 03 🔵",
+    "Name": "TIM 03 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
@@ -255,7 +255,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
 {
-    "Name": "TIM Servidor B 04 🔵",
+    "Name": "TIM 04 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
