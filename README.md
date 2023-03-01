@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.12",
+  "Version": "1.0.13",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.12 | Horas: 13:54:17 | 01/03/2023 🔰\n
+🔰 V: 1.0.13 | Horas: 15:00:27 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -265,7 +265,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
         {
-            "Name": "OI ONLINE 1",
+            "Name": "OI 01 Servidor: A",
             "FLAG": "OI",
             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "songbird.cardinalcommerce.com",
@@ -275,7 +275,7 @@ conectar tranquilamente.
             "Info": "Tlsws"
         },
         {
-            "Name": "OI ONLINE 2",
+            "Name": "OI 02 Servidor: A",
             "FLAG": "oi",
             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "songbird.cardinalcommerce.com",
@@ -285,7 +285,7 @@ conectar tranquilamente.
             "Info": "Tlsws"
         },
         {
-            "Name": "OI ONLINE 3",
+            "Name": "OI 03 Servidor: A",
             "FLAG": "oi",
             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "songbird.cardinalcommerce.com",
@@ -293,67 +293,6 @@ conectar tranquilamente.
             "ProxyIP": "198.217.251.250",
             "ProxyPort": "443",
             "Info": "Tlsws"
-        },
-        {
-            "Name": "CLARO MODO AVIÃO ✈️",
-            "FLAG": "claro",
-            "Payload": "POST HTTP/1.1[crlf]Host:www.waze.com[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "134.65.22.83",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-    {
-      "Name": "CLARO DIRECT [01]",
-      "FLAG": "claro",
-      "Payload": "GET http://bonuz.claro.com.br HTTP/1.0[crlf]Host: http://contaonline2.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO DIRECT [02]",
-      "FLAG": "claro",
-      "Payload": "GET http://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO DIRECT [03]",
-      "FLAG": "claro",
-      "Payload": "GET http://www.claro.com.br HTTP/1.0[crlf]Host: http://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO DIRECT [04]",
-      "FLAG": "claro",
-      "Payload": "GET http://sosrecarga.claro.com.br HTTP/1.0[crlf]Host: [app_host]http://sosrecarga.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO DIRECT [05]",
-      "FLAG": "claro",
-      "Payload": "GET http://brunaclaro.com.br HTTP/1.0[crlf]Host: [app_host]http://brunaclaro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    }
-    
+        }  
   ]
 }
