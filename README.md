@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.5 | Horas: 16:51:17 | 26/02/2023 🔰\n
+🔰 V: 1.0.6 | Horas: 13:54:17 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -185,12 +185,12 @@ conectar tranquilamente.
 {
 "Name": "TIM MODO AVIÃO 01 ✈️",
 "FLAG": "tim",
-"Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
-"SNI": "134.65.22.83",
-"TlsIP": "134.65.22.83",
-"ProxyIP": "134.65.22.83",
+"Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "t.topspeed.ml",
 "ProxyPort": "80",
-"Info": "Proxy"
+"Info": "Direct"
 },
 {
             "Name": "TIM MODO AVIÃO 02 ✈️",
