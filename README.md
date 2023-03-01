@@ -24,7 +24,7 @@ conectar tranquilamente.
   ],
   "Servers": [
     {
-      "Name": "Servidor  Dinâmico",
+      "Name": "Servidor  A",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "net.sshfoxbr.xyz",
@@ -35,7 +35,7 @@ conectar tranquilamente.
       "PASS": ""
     },
 {
-      "Name": "Servidor TIM",
+      "Name": "Servidor B",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "t.topspeed.ml",
