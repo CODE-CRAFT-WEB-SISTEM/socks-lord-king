@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.8 | Horas: 13:54:17 | 01/03/2023 🔰\n
+🔰 V: 1.0.9 | Horas: 13:54:17 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -24,7 +24,7 @@ conectar tranquilamente.
   ],
   "Servers": [
     {
-      "Name": "Servidor SSHFOX CLOUD",
+      "Name": "Servidor  Dinâmico",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "net.sshfoxbr.xyz",
@@ -34,6 +34,17 @@ conectar tranquilamente.
       "USER": "",
       "PASS": ""
     },
+{
+      "Name": "Servidor TIM",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "t.topspeed.ml",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }, 
       
   ],
   "Networks": [
