@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.11",
+  "Version": "1.0.12",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.11 | Horas: 13:54:17 | 01/03/2023 🔰\n
+🔰 V: 1.0.12 | Horas: 13:54:17 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -24,7 +24,7 @@ conectar tranquilamente.
   ],
   "Servers": [
     {
-      "Name": "Servidor  A",
+      "Name": "Servidor: A",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "net.sshfoxbr.xyz",
@@ -35,7 +35,7 @@ conectar tranquilamente.
       "PASS": ""
     },
 {
-      "Name": "Servidor B",
+      "Name": "Servidor: B",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "t.topspeed.ml",
@@ -50,7 +50,7 @@ conectar tranquilamente.
   "Networks": [
     
          {
-      "Name": "🟣VIVO PRÉ 1",
+      "Name": "VIVO 01 Servidor: A",
       "FLAG": "vivo",
       "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host] [split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]", 
       "SNI": "",
@@ -61,7 +61,7 @@ conectar tranquilamente.
   
    },
         {
-            "Name": "VIVO ONLINE 1",
+            "Name": "VIVO 02 Servidor: A",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
@@ -71,7 +71,7 @@ conectar tranquilamente.
             "Info": "Proxy"
         },
         {
-            "Name": "VIVO ONLINE 3",
+            "Name": "VIVO 03 Servidor: A",
             "FLAG": "vivo",
             "Payload": "BASELINE-CONTROL wss://cardinalcommerce.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
             "SNI": "songbird.cardinalcommerce.com",
@@ -81,7 +81,7 @@ conectar tranquilamente.
             "Info": "Tlsws"
         },
 {
-      "Name": "🟣VIVO ON 1",
+      "Name": "VIVO 04 Servidor: A",
       "FLAG": "vivo",
       "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host] [split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]", 
       "SNI": "",
@@ -92,7 +92,7 @@ conectar tranquilamente.
   
    },
 {
-      "Name":"🟣 VIVO ON 2",
+      "Name":"VIVO 05 Servidor: A",
       "FLAG":"vivo",
       "Payload":"GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: itsupport.surveymonkey.com[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI":"",
@@ -103,7 +103,7 @@ conectar tranquilamente.
   
    },
     {
-      "Name":" 🟣VIVO ON 3",
+      "Name":" VIVO 06 Servidor: A",
       "FLAG":"vivo",
       "Payload":"GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: itsupport.surveymonkey.com[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]", 
       "SNI":"",
@@ -113,7 +113,7 @@ conectar tranquilamente.
       "Info":"Proxy"
     },
 {
-      "Name": "🟣VIVO LITE 🟣 ",
+      "Name": "VIVO 07 Servidor: A",
       "FLAG": "vivo",
       "Payload": "BASELINE-CONTROL wss://[app_host] HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
             "SNI":"[app_host]",
@@ -123,7 +123,7 @@ conectar tranquilamente.
             "Info":"Tlsws"
     },
 {
-      "Name": "🟣╰┈[☞>🟣ULTRA 1",
+      "Name": "VIVO 08 Servidor: A",
       "FLAG": "vivo",
       "Payload": "JHOW-CONTROL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket: Averest-Cam[crlf][crlf]",
       "SNI": "faq.foxbit.com.br",
@@ -133,7 +133,7 @@ conectar tranquilamente.
       "Info": "Proxy"
      },
 {
-      "Name": "🟣╰┈[☞>🟣ULTRA 2",
+      "Name": "VIVO 09 Servidor: A",
       "FLAG": "vivo",
       "Payload": "GET-TOPSPEED wss://[app_host]/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
       "SNI": "[app_host]",
@@ -143,7 +143,7 @@ conectar tranquilamente.
       "Info": "Tlsws"
    },
    {
-      "Name": "🟣╰┈[☞>🟣ULTRA 3",
+      "Name": "VIVO 10 Servidor: A",
       "FLAG": "vivo",
       "Payload": "GET-TOPSPEED wss://[app_host]/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]TOPSPEED[crlf][crlf]",
       "SNI": "[app_host]",
@@ -153,7 +153,7 @@ conectar tranquilamente.
       "Info": "Tlsws"
    },
     {
-   "Name": "🟣╰┈[☞>🟣ULTRA 4",
+   "Name": "VIVO 11 Servidor: A",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -163,7 +163,7 @@ conectar tranquilamente.
       "Info": "Proxy"
   },
 {
-      "Name": "VIVO PLUS",
+      "Name": "VIVO 12 Servidor: A",
       "FLAG": "vivo",
       "Payload": "BASELINE-CONTROL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -174,7 +174,7 @@ conectar tranquilamente.
     },
 
 {
-      "Name": "💜VIVO TOP",
+      "Name": "VIVO 13 Servidor: A",
       "FLAG": "vivo",
       "Payload": "GET-MATRIX wss://net.sshfoxbr.xyz/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "net.sshfoxbr.xyz",
@@ -184,7 +184,7 @@ conectar tranquilamente.
       "Info": "Tlsws"
     },
     {
-      "Name": "💜VIVO TOP 2 ",
+      "Name": "VIVO 14 Servidor: A",
       "FLAG": "vivo",
       "Payload": "GET-MATRIX wss://net.sshfoxbr.xyz/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "net.sshfoxbr.xyz",
@@ -220,16 +220,6 @@ conectar tranquilamente.
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "134.65.22.83",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-{
-            "Name": "TIM MODO AVIÃO 04 ✈️",
-            "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host:landing.stoodi.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.16.53.111",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
