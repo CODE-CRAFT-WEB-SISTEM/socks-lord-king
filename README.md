@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.9",
+  "Version": "1.0.10",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.9 | Horas: 13:54:17 | 01/03/2023 🔰\n
+🔰 V: 1.0.10 | Horas: 13:54:17 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -197,8 +197,8 @@ conectar tranquilamente.
     "Name": "TIM MODO AVIÃO 01 ✈️",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
-    "SNI": "t.topspeed.ml",
-    "TlsIP": "t.topspeed.ml",
+    "SNI": "",
+    "TlsIP": "",
     "ProxyIP": "t.topspeed.ml",
     "ProxyPort": "80",
     "Info": "Proxy"
@@ -233,136 +233,46 @@ conectar tranquilamente.
             "ProxyPort": "80",
             "Info": "Proxy"
         },
-{ 
-            "Name": "✅TIM SALDO NA VALIDADE 1", 
-            "FLAG": "tim", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-           "SNI": "[app_host]", 
-           "TlsIP": "pre-onboarding-p.c6bank.app", 
-           "ProxyIP": "pre-onboarding-p.c6bank.app", 
-            "ProxyPort": "443", 
-           "Info": " Proxy" 
-        }, 
-        { 
-            "Name": "✅TIM SALDO NA VALIDADE 2", 
-            "FLAG": "tim", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-           "SNI": "134.65.22.83", 
-           "TlsIP": "songbird.cardinalcommerce.com", 
-           "ProxyIP": "songbird.cardinalcommerce.com", 
-            "ProxyPort": "443", 
-           "Info": " Proxy" 
-        }, 
-        { 
-            "Name": "✅TIM SALDO NA VALIDADE 3", 
-            "FLAG": "tim", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-           "SNI": "134.65.22.83", 
-           "TlsIP": "workplaceservices.surveymonkey.com", 
-           "ProxyIP": "workplaceservices.surveymonkey.com", 
-            "ProxyPort": "443", 
-           "Info": " Proxy" 
-        }, 
-        { 
-            "Name": "✅TIM SALDO NA VALIDADE 4", 
-            "FLAG": "tim", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-           "SNI": "[app_host]", 
-           "TlsIP": "kickc6.com.br", 
-           "ProxyIP": "kickc6.com.br", 
-            "ProxyPort": "443", 
-           "Info": " Proxy" 
-        }, 
-        { 
-            "Name": "✅TIM SALDO NA VALIDADE 5", 
-            "FLAG": "tim", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-           "SNI": "[app_host]", 
-           "TlsIP": "api.sandbox.c6bank.com.br", 
-           "ProxyIP": "api.sandbox.c6bank.com.br", 
-            "ProxyPort": "443", 
-           "Info": " Proxy" 
-        },
-         { 
-            "Name": "✅TIM SALDO NA VALIDADE 6", 
-            "FLAG": "tim", 
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]", 
-           "SNI": "[app_host]", 
-           "TlsIP": "songbird.cardinalcommerce.com", 
-           "ProxyIP": "songbird.cardinalcommerce.com", 
-            "ProxyPort": "443", 
-           "Info": " Proxy" 
-        },
-    {
-      "Name": "TIM DIRECT [01]",
-      "FLAG": "ic_tim",
-      "Payload": "MERGE indexer10.sjc.northshore.akamai.com HTTP/2.0[crlf]Host: r03.spine101.lax01.fab.netarch.akamai.com [crlf]Connection: upgrade, Keep-Alive-Status 101[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@mateuscmf[crlf]Referer: http://www.google.com[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+
+{
+    "Name": "TIM Servidor B 01 🔵",
+    "FLAG": "tim",
+    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "t.topspeed.ml",
+    "ProxyPort": "80",
+    "Info": "Direct"
     },
-    {
-      "Name": "TIM DIRECT [02]",
-      "FLAG": "ic_tim",
-      "Payload": "MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Referer: http://www.google.com[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+{
+    "Name": "TIM Servidor B 02 🔵",
+    "FLAG": "tim",
+    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "t.topspeed.ml",
+    "ProxyPort": "80",
+    "Info": "Direct"
     },
-    {
-      "Name": "TIM DIRECT [03]",
-      "FLAG": "ic_tim",
-      "Payload": "SUBSCRIBE HTTP/1.1[lf]Host:www.artists.youtube.com[lf]By:~>@mateuscmf[lf][lf][lf]Host:www.office.com;www.larebajavirtual.com[lf]By:~>@mateuscmf[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+{
+    "Name": "TIM Servidor B 03 🔵",
+    "FLAG": "tim",
+    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "t.topspeed.ml",
+    "ProxyPort": "80",
+    "Info": "Direct"
     },
-    {
-      "Name": "TIM DIRECT [04]",
-      "FLAG": "ic_tim",
-      "Payload": "GET http://wap.tim.com.br HTTP/1.0[crlf]Host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM DIRECT [05]",
-      "FLAG": "ic_tim",
-      "Payload": "MOVE HTTP/1.1[lf]Host:pt.foursquare.com/v/vivo-portal-celulares/519cd8a3498e55a588aa93c1[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM DIRECT [06]",
-      "FLAG": "ic_tim",
-      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM DIRECT [07]",
-      "FLAG": "ic_tim",
-      "Payload": "UNLOCK www.whatsapp.net;m.facebook.com;www.instagram.com;www.twitter.com;c.whatsapp.net HTTP/1.0 
-Host: www.whatsapp.net;m.facebook.com;www.instagram.com;www.twitter.com;c.whatsapp.net HTTP/1.0\n \n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "134.65.22.83",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+{
+    "Name": "TIM Servidor B 04 🔵",
+    "FLAG": "tim",
+    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "t.topspeed.ml",
+    "ProxyPort": "80",
+    "Info": "Direct"
     },
         {
             "Name": "OI ONLINE 1",
