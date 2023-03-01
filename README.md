@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.6 | Horas: 13:54:17 | 01/03/2023 🔰\n
+🔰 V: 1.0.7 | Horas: 13:54:17 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -183,15 +183,15 @@ conectar tranquilamente.
       "Info": "Tlsws"
     },
 {
-"Name": "TIM MODO AVIÃO 01 ✈️",
-"FLAG": "tim",
-"Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
-"SNI": "",
-"TlsIP": "",
-"ProxyIP": "t.topspeed.ml",
-"ProxyPort": "80",
-"Info": "Direct"
-},
+    "Name": "TIM MODO AVIÃO 01 ✈️",
+    "FLAG": "tim",
+    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+    "SNI": "",
+    "TlsIP": "",
+    "ProxyIP": "t.topspeed.ml",
+    "ProxyPort": "80",
+    "Info": "Direct"
+    },
 {
             "Name": "TIM MODO AVIÃO 02 ✈️",
             "FLAG": "tim",
