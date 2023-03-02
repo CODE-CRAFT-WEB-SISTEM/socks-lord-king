@@ -27,9 +27,7 @@ conectar tranquilamente.
       "Name": "Servidor: A",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "net.sshfoxbr.xyz",
-      "ServerIP": "t.topspeed.ml",
-      "ServerIP": "apptest.c6bank.app",
+      "ServerIP": "net.sshfoxbr.xyz",      
       "CheckUser": "http://134.65.22.83:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -41,6 +39,7 @@ conectar tranquilamente.
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "t.topspeed.ml",
+      "ServerIP": "apptest.c6bank.app",
       "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -196,7 +195,7 @@ conectar tranquilamente.
       "Info": "Tlsws"
     },
 {
-    "Name": "TIM 01 Servidor: A",
+    "Name": "TIM 01 Servidor: B",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: appdev.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
@@ -206,7 +205,7 @@ conectar tranquilamente.
       "Info": "Direct"
   },
   {
-      "Name": "TIM 02 Servidor: A",
+      "Name": "TIM 02 Servidor: B",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: landing.stoodi.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
@@ -216,7 +215,7 @@ conectar tranquilamente.
       "Info": "Direct"
    },
 {
-    "Name": "TIM 03 Servidor: A",
+    "Name": "TIM 03 Servidor: B",
       "FLAG": "tim",
       "Payload": "GET wss://www.c6bank.app/ HTTP/1.1[crlf]Host: www.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
@@ -226,7 +225,7 @@ conectar tranquilamente.
       "Info": "Direct"
   },
   {
-    "Name": "TIM 04 Servidor: A",
+    "Name": "TIM 04 Servidor: B",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: image.mail.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
@@ -236,7 +235,7 @@ conectar tranquilamente.
       "Info": "Direct"
   },
 {
-      "Name": "TIM 05 Servidor: A",
+      "Name": "TIM 05 Servidor: B",
       "FLAG": "tim",
       "Payload": "GET / HTTP/1.1[crlf]Host: www.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
@@ -246,7 +245,7 @@ conectar tranquilamente.
       "Info": "Direct"
     },
 {
-    "Name": "TIM 01 Servidor: B",
+    "Name": "TIM 06 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
@@ -256,7 +255,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
 {
-    "Name": "TIM 02 Servidor: B",
+    "Name": "TIM 07 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
@@ -266,7 +265,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
 {
-    "Name": "TIM 03 Servidor: B",
+    "Name": "TIM 08 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
@@ -276,7 +275,7 @@ conectar tranquilamente.
     "Info": "Direct"
     },
 {
-    "Name": "TIM 04 Servidor: B",
+    "Name": "TIM 09 Servidor: B",
     "FLAG": "tim",
     "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
