@@ -28,7 +28,7 @@ conectar tranquilamente.
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "net.sshfoxbr.xyz",
-      "ServerIP": "t.topspeed.ml"
+      "ServerIP": "t.topspeed.ml",
       "ServerIP": "apptest.c6bank.app",
       "CheckUser": "http://134.65.22.83:5000/checkUser",
       "ServerPort": "22",
