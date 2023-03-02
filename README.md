@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.17",
+  "Version": "1.0.18",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.17 | Horas: 15:00:27 | 01/03/2023 🔰\n
+🔰 V: 1.0.18 | Horas: 15:00:27 | 01/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
