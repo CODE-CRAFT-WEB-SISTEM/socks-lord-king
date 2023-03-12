@@ -28,7 +28,7 @@ conectar tranquilamente.
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "net.sshfoxbr.xyz",      
-      "CheckUser": "http://149.78.184.22:5000",
+      "CheckUser": "http://149.78.184.22:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
