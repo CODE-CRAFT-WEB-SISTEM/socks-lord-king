@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.22",
+  "Version": "1.0.23",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.22 | Horas: 11:20:27 | 12/03/2023 🔰\n
+🔰 V: 1.0.23 | Horas: 11:20:27 | 12/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -40,7 +40,7 @@ conectar tranquilamente.
       "FLAG": "br.png",
       "ServerIP": "t.topspeed.ml",
       "ServerIP": "apptest.c6bank.app",
-      "CheckUser": "",
+      "CheckUser": "http://149.78.184.22:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
