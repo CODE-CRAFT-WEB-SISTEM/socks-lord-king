@@ -307,10 +307,10 @@ conectar tranquilamente.
     {
       "Name": "CLARO 03 Servidor: A",
       "FLAG": "claro",
-      "Payload": "GET https://flex.claro.com.br/HTTP/1.0[crlf]host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "Payload": "GET https://flex.claro.com.br/HTTP/1.0[crlf]host: net.sshfoxbr.xyz[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "168.138.138.219",
+      "ProxyIP": "149.78.184.22",
       "ProxyPort": "80",
       "Info": "Proxy"
    },
