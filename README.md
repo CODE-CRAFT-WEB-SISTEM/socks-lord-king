@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.24",
+  "Version": "1.0.25",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.24 | Horas: 02:53:27 | 30/03/2023 🔰\n
+🔰 V: 1.0.25 | Horas: 08:43:07 | 02/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -284,6 +284,36 @@ conectar tranquilamente.
     "ProxyPort": "80",
     "Info": "Direct"
     },
+{
+    "Name": "CLARO 01 Servidor: A",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "api.web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"   
+    },
+{
+    "Name": "CLARO 02 Servidor: A",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "waze.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"   
+    },
+    {
+      "Name": "CLARO 03 Servidor: A",
+      "FLAG": "claro",
+      "Payload": "GET https://flex.claro.com.br/HTTP/1.0[crlf]host: [app_host][crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "168.138.138.219",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
 
     {
             "Name": "OI 01 Servidor: A",
