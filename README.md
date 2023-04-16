@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.28",
+  "Version": "1.0.29",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.28 | Horas: 08:43:07 | 16/04/2023 🔰\n
+🔰 V: 1.0.29 | Horas: 08:43:07 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -309,7 +309,7 @@ conectar tranquilamente.
 {
     "Name": "TIM 09 Servidor: B",
     "FLAG": "tim",
-    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
+    "Payload": "GET / HTTP/1.1[crlf]Host: support.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- /?/ HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]TOPSPEED[crlf][crlf]",
     "SNI": "",
     "TlsIP": "",
     "ProxyIP": "t.topspeed.ml",
@@ -319,7 +319,7 @@ conectar tranquilamente.
 {
             "Name": "🌐TIM NA VALIDADE 1🎮",
             "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host: jobs.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: jobs.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: [app_host] [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "support.deezer.com",
@@ -329,7 +329,7 @@ conectar tranquilamente.
         {
             "Name": "🌐TIM NA VALIDADE 2🎮",
             "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.16.51.111",
