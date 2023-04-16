@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.33",
+  "Version": "1.0.34",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.33 | Horas: 08:43:07 | 16/04/2023 🔰\n
+🔰 V: 1.0.34 | Horas: 08:43:07 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
