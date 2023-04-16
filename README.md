@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.31",
+  "Version": "1.0.32",
   "ReleaseNotes": "NOVA ATUALIZAÇÃO ✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n        Adicionamos novas configurações ao aplicativo. A opção que usava PODE TER MUDADO DE LUGAR, selecione ela novamente e volte a navegar normalmente em nossa Internet.😉",
   "UrlUpdate": "https://raw.githubusercontent.com/SSHFOXBR/socks-lord-king/main/README.md",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=341041",
@@ -207,6 +207,54 @@
   "ProxyPort": "80",
   "Info": "Proxy"
   },
+{
+       "Name": "TIM 01 [ᶜʳᵉ́ᵈᶦᵗᵒˢ ᵛᵃˡᶦᵈᵒˢ] 🌐",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host:[app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+  },
+{
+ 
+            "Name": "TIM 02 [ᶜʳᵉ́ᵈᶦᵗᵒˢ ᵛᵃˡᶦᵈᵒˢ] 🌐",
+ 
+            "FLAG": "tim",
+ 
+            "Payload": "CONNECT / HTTP/1.9[crlf]host: ajuda.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: topspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+ 
+            "SNI": "",
+ 
+            "TlsIP": "",
+ 
+            "ProxyIP": "104.18.27.160",
+            "ProxyPort": "80",
+ 
+            "Info": "Proxy"
+ 
+        },
+{
+                        "Name":"TIM 03 [ᶜʳᵉ́ᵈᶦᵗᵒˢ ᵛᵃˡᶦᵈᵒˢ] 🌐",
+                        "FLAG":"tim",
+                        "Payload":"GET / HTTP/1.1[crlf]Host: www.c6bank.app[crlf][crlf][delay_split][crlf][crlf]MOVE /TSTOPSPEED/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]TSTOPSPEED[crlf][crlf]",
+                        "SNI":"",
+                        "TlsIP":"",
+                        "ProxyIP":"104.19.239.25",
+                        "ProxyPort":"80",
+                        "Info":"Proxy"
+                },
+{
+"Name": "TIM 04 [ᶜʳᵉ́ᵈᶦᵗᵒ ᵉˣᵖᶦʳᵃᵈᵒ] 🌐",
+      "FLAG": "tim",
+      "Payload": "HTTP/ [crlf][crlf]|[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
   {
             "Name": "Tim teste",
             "FLAG": "tim",
