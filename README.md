@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.27",
+  "Version": "1.0.28",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.27 | Horas: 08:43:07 | 02/03/2023 🔰\n
+🔰 V: 1.0.28 | Horas: 08:43:07 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -316,6 +316,36 @@ conectar tranquilamente.
     "ProxyPort": "80",
     "Info": "Direct"
     },
+{
+            "Name": "🌐TIM NA VALIDADE 1🎮",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: jobs.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "support.deezer.com",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🌐TIM NA VALIDADE 2🎮",
+            "FLAG": "tim",
+            "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },     
+        {
+"Name": "🌐TIM NA VALIDADE 3🎮",
+"FLAG": "tim",
+"Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: net.sshfoxbr.xyz Host:global-4-lvs-colossus-10.opera-mini.net[crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "global-4-lvs-colossus-10.opera-mini.net",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
 {
     "Name": "CLARO 01 Servidor: A",
       "FLAG": "claro",
