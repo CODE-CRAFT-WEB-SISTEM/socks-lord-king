@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.26",
+  "Version": "1.0.27",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.26 | Horas: 08:43:07 | 02/03/2023 🔰\n
+🔰 V: 1.0.27 | Horas: 08:43:07 | 02/03/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -194,6 +194,38 @@ conectar tranquilamente.
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+{
+      "Name": "VIVO PRÉ 1 🇧🇷",
+      "FLAG": "vivo",
+      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: net.sshfoxbr.xyz[split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin : *;Save-Data: não;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests : 1/n/n[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+  
+   },
+{
+      "Name": "VIVO PRÉ 2 🇧🇷",
+      "FLAG": "vivo",
+      "Payload": "GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: itsupport.surveymonkey.com[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+{
+      "Name": "VIVO PRÉ 3 🇧🇷",
+      "FLAG": "vivo",
+      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: net.sshfoxbr.xyz[split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin : *;Save-Data: não;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests : 1/n/n[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+  
+   },        
 {
     "Name": "TIM 01 Servidor: B",
       "FLAG": "tim",
