@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.30",
+  "Version": "1.0.31",
   "ReleaseNotes": "NOVA ATUALIZAÇÃO ✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n        Adicionamos novas configurações ao aplicativo. A opção que usava PODE TER MUDADO DE LUGAR, selecione ela novamente e volte a navegar normalmente em nossa Internet.😉",
   "UrlUpdate": "https://raw.githubusercontent.com/SSHFOXBR/socks-lord-king/main/README.md",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=341041",
@@ -124,7 +124,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "support.deezer.com",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
         },
         {
