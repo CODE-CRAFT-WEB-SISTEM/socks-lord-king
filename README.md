@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.34",
+  "Version": "1.0.35",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.34 | Horas: 08:43:07 | 16/04/2023 🔰\n
+🔰 V: 1.0.35 | Horas: 08:43:07 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -227,11 +227,11 @@ conectar tranquilamente.
   
    },        
 {
-    "Name": "TIM 01 Servidor: B",
+    "Name": "TIM ALFA 01 Servidor: B",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: appdev.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.1[crlf]Host:net.sshfoxbr.xyz [crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: c6bank.com.br[crlf][crlf][crlf][crlf]OPTIONS- // HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "104.16.53.111",
+      "TlsIP": "104.18.27.160",
       "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Direct"
