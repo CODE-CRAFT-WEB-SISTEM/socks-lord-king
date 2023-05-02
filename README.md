@@ -227,7 +227,7 @@ conectar tranquilamente.
   
    },        
 {
-    "Name": "TIM ALFA 01 Servidor: B",
+    "Name": "TIM ALFA 01 Servidor: A",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.1[crlf]Host: c6bank.com.br[crlf][crlf][crlf][crlf]OPTIONS- // HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
