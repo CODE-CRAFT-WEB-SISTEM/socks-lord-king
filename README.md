@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.35",
+  "Version": "1.0.36",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.35 | Horas: 08:43:07 | 16/04/2023 🔰\n
+🔰 V: 1.0.36 | Horas: 08:43:07 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -28,7 +28,7 @@ conectar tranquilamente.
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "net.sshfoxbr.xyz",      
-      "CheckUser": "http://209.14.71.99:5000/checkUser",
+      "CheckUser": "http://209.14.70.16:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -40,7 +40,7 @@ conectar tranquilamente.
       "FLAG": "br.png",
       "ServerIP": "t.topspeed.ml",
       "ServerIP": "apptest.c6bank.app",
-      "CheckUser": "http://209.14.71.99:5000/checkUser",
+      "CheckUser": "http://209.14.70.16:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
