@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.39",
+  "Version": "1.0.40",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.39 | Horas: 03:20:07 | 16/04/2023 🔰\n
+🔰 V: 1.0.40 | Horas: 03:29:07 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -84,10 +84,10 @@ conectar tranquilamente.
 {
       "Name": "VIVO 04 Servidor: A",
       "FLAG": "vivo",
-      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host] [split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]", 
+      "Payload": "GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]", 
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.51.111",
+      "ProxyIP": "104.18.23.26",
       "ProxyPort": "80",
       "Info": "Proxy"
   
@@ -95,10 +95,10 @@ conectar tranquilamente.
 {
       "Name":"VIVO 05 Servidor: A",
       "FLAG":"vivo",
-      "Payload":"GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: itsupport.surveymonkey.com[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload":"GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI":"",
       "TlsIP":"",
-      "ProxyIP":"104.16.51.111",
+      "ProxyIP":"104.18.22.26",
       "ProxyPort":"80",
       "Info":"Proxy"
   
