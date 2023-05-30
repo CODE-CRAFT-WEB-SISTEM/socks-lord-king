@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.42",
+  "Version": "1.0.43",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.42 | Horas: 07:58:44 | 16/04/2023 🔰\n
+🔰 V: 1.0.43 | Horas: 07:58:44 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -327,6 +327,7 @@ conectar tranquilamente.
             "ProxyPort": "80",
             "Info": "Proxy"
         },
+        
         {
             "Name": "🌐TIM NA VALIDADE 2🎮",
             "FLAG": "tim",
@@ -347,6 +348,34 @@ conectar tranquilamente.
 "ProxyPort": "80",
 "Info": "Proxy"
 },
+{
+       "Name": "TIM 01 [ᶜʳᵉ́ᵈᶦᵗᵒˢ ᵛᵃˡᶦᵈᵒˢ] 🌐",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host:[app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.53.111",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+  },
+{
+ 
+            "Name": "TIM 02 [ᶜʳᵉ́ᵈᶦᵗᵒˢ ᵛᵃˡᶦᵈᵒˢ] 🌐",
+ 
+            "FLAG": "tim",
+ 
+            "Payload": "CONNECT / HTTP/1.9[crlf]host: ajuda.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: topspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+ 
+            "SNI": "",
+ 
+            "TlsIP": "",
+ 
+            "ProxyIP": "104.18.27.160",
+            "ProxyPort": "80",
+ 
+            "Info": "Proxy"
+ 
+        },
 {
     "Name": "CLARO 01 Servidor: A",
       "FLAG": "claro",
