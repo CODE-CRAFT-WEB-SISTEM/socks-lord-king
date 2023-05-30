@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.41",
+  "Version": "1.0.42",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.41 | Horas: 06:10:23 | 16/04/2023 🔰\n
+🔰 V: 1.0.42 | Horas: 07:58:44 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -316,6 +316,7 @@ conectar tranquilamente.
     "ProxyPort": "80",
     "Info": "Direct"
     },
+    
 {
             "Name": "🌐TIM NA VALIDADE 1🎮",
             "FLAG": "tim",
