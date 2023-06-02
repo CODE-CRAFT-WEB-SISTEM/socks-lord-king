@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.43",
+  "Version": "1.0.44",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.43 | Horas: 07:58:44 | 16/04/2023 🔰\n
+🔰 V: 1.0.44 | Horas: 07:58:44 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -239,7 +239,7 @@ conectar tranquilamente.
   {
       "Name": "TIM 02 Servidor: B",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.9[crlf]host: mobile.hom.c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 200-continue[crlf]Upgrade: www.whatsapp.com[crlf]User-Agent: www.snapchat.com X-Forward-Host: Content-Location:33333333[crlf]HTTP/1.0[crlf]Host: www.snapchat.com[crlf]Connection: keep-alive[crlf][crlf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: saas-h.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: net.sshfoxbr.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.18.27.160",
       "ProxyIP": "",
