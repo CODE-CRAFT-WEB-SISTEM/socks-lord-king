@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.44",
+  "Version": "1.0.45",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.44 | Horas: 07:58:44 | 16/04/2023 🔰\n
+🔰 V: 1.0.45 | Horas: 00:41:44 | 16/04/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -49,8 +49,38 @@ conectar tranquilamente.
       
   ],
   "Networks": [
-    
-         {
+  
+  {
+            "Name": "VIVO SPEED [01]",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "americanet.xyz",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:6810:336f",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+{
+      "Name": "VIVO SPEED [02]",
+      "FLAG": "vivo",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: www.c6bank.com.br[crlf][crlf][split]- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Date: TS[crlf]User-Agent: (PAYLOAD É TUDO IGUAL NÉ?) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf]@TSTOPSPEED[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "::ffff:6810:356f",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+{
+      "Name": "VIVO SPEED [03]",
+       "FLAG": "vivo",
+       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive-Upgrade[crlf]@TSTOPSPEED[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "::ffff:6810:356f",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+    },
+{
       "Name": "VIVO 01 Servidor: A [new-fix]",
       "FLAG": "vivo",
       "Payload": "GET-CONTROL ws://net.sshfoxbr.xyz HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]", 
