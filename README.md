@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.46",
+  "Version": "1.0.47",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.46 | Horas: 00:41:44 | 16/04/2023 🔰\n
+🔰 V: 1.0.47 | Horas: 00:41:44 | 22/06/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -346,7 +346,26 @@ conectar tranquilamente.
     "ProxyPort": "80",
     "Info": "Direct"
     },
-    
+{
+      "Name": "TIM SPEED 1 🔵",
+       "FLAG": "tim",
+       "Payload": "CONNECT / HTTP/1.1[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]ACL /chat/socket HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Sec-WebSocket-Key: SGVsbG8gd29ybGQh[crlf]Sec-WebSocket-Version: 13[crlf]User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]@TSTOPSPEED[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "0:0:0:0:0:ffff:6813:f05d",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+    },
+{
+      "Name": "TIM SPEED 2 🔵",
+       "FLAG": "tim",
+       "Payload": "CONNECT / HTTP/1.1[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]ACL /chat/socket HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Sec-WebSocket-Key: SGVsbG8gd29ybGQh[crlf]Sec-WebSocket-Version: 13[crlf]User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]TSTOPSPEED[crlf][crlf]",
+       "SNI": "",
+       "TlsIP": "",
+       "ProxyIP": "0:0:0:0:0:ffff:6812:f15d",
+       "ProxyPort": "80",
+       "Info": "Proxy"
+    },
 {
             "Name": "🌐TIM NA VALIDADE 1🎮",
             "FLAG": "tim",
