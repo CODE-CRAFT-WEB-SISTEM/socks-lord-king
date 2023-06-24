@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.47",
+  "Version": "1.0.48",
   "ReleaseNotes": "➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n ••••\n
-🔰 V: 1.0.47 | Horas: 00:41:44 | 22/06/2023 🔰\n
+🔰 V: 1.0.48 | Horas: 00:41:44 | 24/06/2023 🔰\n
 ••••\n
 ⚠️ MURAL DE AVISOS: NOVA PAYLOAD OU AJUSTES DAS ATUAIS\n
 ••••••••••••••••••••\n
@@ -94,10 +94,10 @@ conectar tranquilamente.
         {
             "Name": "VIVO 02 Servidor: A",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "[delay_split][crlf]PUT http://www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html HTTP/1.1[crlf]Host: http://www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html[crlf][crlf][crlf]",
             "SNI": "",
-            "TlsIP": "104.16.53.111",
-            "ProxyIP": "104.16.53.111",
+            "TlsIP": "net.sshfoxbr.xyz",
+            "ProxyIP": "net.sshfoxbr.xyz",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
